@@ -15,10 +15,6 @@ requests:
     matchers:
       - type: word
         words:
-          - 'Apache Tomcat'
-        condition: and
-
-      - type: status
         status:
           - 200
 
